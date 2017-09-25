@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizza Dough Making App</title>
+	<link rel="stylesheet" type="text/css" href="css/pizzaApp.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div>
+	<h1>Your Pizza Dough Recipe Maker</h1>
+	<p>Based on the Associazione Verace Pizza Napoletana Guidlines, sort of.</p>
+	<h2>
+		<i class="fa fa-cutlery" aria-hidden="true"></i> </i>
+		<br> 
+		<input id="input1" value="4" type="number" placeholder="# of pizza's wanted">
+		<em id="explain">("How much pizza do you want. Default: Dough for four 12" round pizzas")</em>
+	</h2>
+<hr>
+	<h2>% of <i class="fa fa-tint" aria-hidden="true"></i> in dough
+		<input id="input2" value="57" type="number" placeholder="% water (changes dough texture, default 57%">
+		<em id="explain">("Percentage of water in dough. Default: 57%. Try: 70% for chewier crust.")</em>
+	</h2>
+
+<hr>
+
+	<p><em>Ingredients you will need: Flour, Water, Salt, Yeast.</em><br> Supplies: Kitchen scale, for measuring weight in grams, and a large bowl.</p>
+	<p><em>Add your desired requirements above and click the "Create" button to get the full recipe with amounts of each ingredients.</em></p>
+
+</div>
+
+<ul>
+	<li id="li"></li>
+</ul>
+
+<button>Create</button>
+
+<script type="text/javascript" src="js/pizzaApp.js"></script>
+
+</body>
+</html>
