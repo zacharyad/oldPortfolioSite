@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>To Do List</title>
-	<link rel="stylesheet" type="text/css" href="../styles/toDoList.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href="../styles/toDoList.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <h1>To-Do List<i class="fa fa-plus-square" aria-hidden="true"></i></h1>
+      <input id="typeAdd" type="text" placeholder="Add New To-Do" />
 
-
-</head>
-<body>
-
-<div id="container">
-	<h1>To-Do List<i class="fa fa-plus-square" aria-hidden="true"></i></h1>
-	<input id="typeAdd" type="text" placeholder="Add New To-Do">
-
-	<ul>
-		<li><span><i class="fa fa-minus-square-o" aria-hidden="true"></i></span> Type and press "enter" to add</li>
-		<li><span><i class="fa fa-minus-square-o" aria-hidden="true"></i></span> Click the trash can to delete</li>
-		<li><span><i class="fa fa-minus-square-o" aria-hidden="true"></i></span> Click text of a To-do to mark it off</li>
-	</ul>
-</div>
-<script type="text/javascript" src="../scripts/lib/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="../scripts/toDoList.js"></script>
-</body>
+      <ul>
+        <li>
+          <span><i class="fa fa-minus-square-o" aria-hidden="true"></i></span>
+          Type and press "enter" to add
+        </li>
+        <li>
+          <span><i class="fa fa-minus-square-o" aria-hidden="true"></i></span>
+          Click the trash can to delete
+        </li>
+        <li>
+          <span><i class="fa fa-minus-square-o" aria-hidden="true"></i></span>
+          Click text of a To-do to mark it off
+        </li>
+      </ul>
+    </div>
+    <script
+      type="text/javascript"
+      src="../scripts/lib/jquery-3.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../scripts/examples/toDoList.js"
+    ></script>
+  </body>
 </html>
